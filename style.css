@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Black+Ops+One&family=Onest:wght@300;400&family=Prompt:ital,wght@0,400;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+input {
+  width: 300px;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  text-align: right;
+  background: transparent;
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+.button{
+    border: none;
+    width: 60px;
+    height: 60PX;
+    border-radius: 100px;
+    background: transparent;
+    margin:10px;
+    color: white;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    font-size: 20px;
+    cursor: pointer;
+}
+.operator{
+    color: #66ffb3;
+}
+.equalbtn{
+    background-color: orangered;
+}
